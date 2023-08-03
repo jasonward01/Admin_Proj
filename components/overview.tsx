@@ -29,5 +29,6 @@ export const Overview: React.FC<OverviewProps> = ({
         <Bar dataKey="total" fill="#3498db" radius={[4, 4, 0, 0]} />
       </BarChart>
     </ResponsiveContainer>
+    
   )
 };

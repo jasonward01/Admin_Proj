@@ -20,7 +20,7 @@ export function MainNav({
     },
     {
       href: `/${params.storeId}/billboards`,
-      label: 'Billboards',
+      label: 'Store',
       active: pathname === `/${params.storeId}/billboards`,
     },
     {
@@ -72,6 +72,8 @@ export function MainNav({
           {route.label}
       </Link>
       ))}
+
     </nav>
+    
   )
 };

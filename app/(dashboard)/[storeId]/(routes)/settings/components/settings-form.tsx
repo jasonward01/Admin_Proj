@@ -119,6 +119,7 @@ export const SettingsForm: React.FC<SettingsFormProps> = ({
           <Button disabled={loading} className="ml-auto" type="submit">
             Save changes
           </Button>
+          
         </form>
       </Form>
       <Separator />
